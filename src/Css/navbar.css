@@ -1,4 +1,12 @@
-.navbar {
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+}
+.container-nav {
     display: flex;
     justify-content: space-between;
     background-color: #333;
@@ -7,7 +15,7 @@
     position: relative;
     padding: 0 0 0 30px;
 }
-.navbar .logo{
+.container-nav .logo{
     color: white;
     font-size: 35px;
     /* position: absolute;
@@ -15,14 +23,14 @@
     letter-spacing: -0.05em;
     font-weight: 600;
 }
-.navbar .logo span{
+.container-nav .logo span{
     color: #77cc6d;
 }
-.navbar .btns{
+.container-nav .btns{
     display: flex;
     justify-content: space-between;
 }
-.navbar .btns a{
+.container-nav .btns a{
     text-decoration: none;
     border-left: 1px solid #444;
     height: 60px;
