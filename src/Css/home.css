@@ -1,4 +1,40 @@
 .home {
-    background-image: url(../imgs/background1.jpg);
-    width: ;
+    width: calc(100% - 300px);
+    float: right;
+    height: 100%;
+}
+.info-home {
+    background-image: url(../imgs/background2.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: calc(100vh - 60px );
+}
+.info-home .text{
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    text-align: center;
+}
+.info-home .text h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.info-home .text p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.info-home .text p span{
+    color: #2c98f0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.info-home .text p a{
+    text-decoration: none;
+    color: #2c98f0;
+    /* background-color: black; */
+    font-weight: bold;
 }

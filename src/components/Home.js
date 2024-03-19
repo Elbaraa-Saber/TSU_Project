@@ -4,10 +4,14 @@ function Home (){
     return (
         <>
             <div className="home" id="home">
-                <h1>
-                    Hi!<br></br>I'm Elbaraa
-                </h1>
-                <p>100% html5 bootstrap templates Made by <a href="https://github.com/Elbaraa-Saber">Salem Elbaraa</a></p>
+                <div className='info-home'>
+                    <div className='text'>
+                        <h1>
+                            Hi!<br></br>I'm Elbaraa
+                        </h1>
+                        <p> <span>100% </span>html5 & CSS & Js templates <br></br> Made by <a href="https://github.com/Elbaraa-Saber">Salem Elbaraa</a></p>
+                    </div>
+                </div>
             </div>
         </>
     );
