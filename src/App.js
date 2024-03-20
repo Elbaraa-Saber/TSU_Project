@@ -7,13 +7,16 @@ import Page from './components/Page';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    
       <Navbar/>
-      <div className='container'>
-        <Sidebar/>
-        <Page/>
+      <div className="App">
+        <div className='container'>
+          <Sidebar/>
+          <Page/>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

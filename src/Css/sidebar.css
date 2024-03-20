@@ -1,38 +1,44 @@
-.sidebar {
+.sidebar{
     width: 300px;
-    text-align: center;
     padding-top: 3em;
-    padding-bottom: 40px;
-    overflow-y: scroll;
-    background-color: #f2f3f7;
-    height: 600px;
+    padding-bottom: 95px;
     float: left;
     position: fixed;
+    height: calc(100% - 200px);
+    overflow-y: auto;
+    background-color: #f2f3f7;
+
 }
-.sidebar .photo {
+
+.container-side {
+    width: 100%;
+    text-align: center;
+    background-color: #f2f3f7;
+}
+.container-side .photo {
     margin-bottom: 30px;
 }
-.sidebar .photo img{
+.container-side .photo img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
-.sidebar .main-info h1{
+.container-side .main-info h1{
     margin: 0 auto 10px;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.sidebar .main-info p{
+.container-side .main-info p{
     font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 30px;
     color: rgb(0 0 0 / 70%);
 }
-.sidebar ul{
+.container-side ul{
     padding: 0;
 }
-.sidebar li{
+.container-side li{
     margin: 0 0 15px 0;
     list-style: none;
     padding: 0;
@@ -41,13 +47,13 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.sidebar li a{
+.container-side li a{
     text-decoration: none;
     color: rgb(0 0 0 / 70%);
     padding: 10px 0;
     position: relative;
 }
-.sidebar li a::after{
+.container-side li a::after{
     content: '';
     position: absolute;
     height: 1px;
@@ -57,22 +63,22 @@
     left: 0;
     bottom: 7px;
 }
-.sidebar li:hover > a::after,
-.sidebar li.active a::after
+.container-side li:hover > a::after,
+.container-side li.active a::after
 {
     width: 100%;
 }
 
-.sidebar .footer-sidebar div:first-of-type{
+.container-side .footer-sidebar div:first-of-type{
     margin: 30px auto 10px;
     font-size: 12px;
     color: rgb(0 0 0 / 50%);
 }
-.sidebar .footer-sidebar div:last-of-type{
+.container-side .footer-sidebar div:last-of-type{
     font-size: 16px;
     color: rgb(0 0 0 / 50%);
 }
-.sidebar .footer-sidebar div:last-of-type a{
+.container-side .footer-sidebar div:last-of-type a{
     text-decoration: none;
     color: #2c98f0;
     font-size: 15px;

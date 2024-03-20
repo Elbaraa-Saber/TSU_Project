@@ -2,3 +2,10 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+.App{
+    /* height: calc(100% - 60px); */
+}
+.page{
+    max-width: calc(100% - 300px);
+    float: right;
+}
